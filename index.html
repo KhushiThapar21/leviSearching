@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Levi Searching-Movie Recommender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>LEVI SEARCHING</h1>
+  </header>
+  <main>
+    <form id="preferences-form">
+      <label for="genre-select">Genre:</label>
+      <select id="genre-select">
+        <option value="">All</option>
+        <option value="action">Action</option>
+        <option value="comedy">Comedy</option>
+        <option value="drama">Drama</option>
+        <option value="animated">Animated</option>
+      </select>
+
+      <label for="rating-select">Rating:</label>
+      <select id="rating-select">
+        <option value="">All</option>
+        <option value="10">6+</option>
+        <option value="9">6+</option>
+        <option value="8">8+</option>
+        <option value="7">7+</option>
+        <option value="6">6+</option>
+        <option value="5">6+</option>
+       
+      </select>
+
+      <button type="submit">Get Recommendations</button>
+    </form>
+
+    <div id="recommendations-container">
+      <!-- Recommendations will be dynamically added here -->
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
